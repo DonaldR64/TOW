@@ -31,8 +31,8 @@ main {
     grid-gap: 4px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "pic pic name name name name"
-                        "pic pic name name name name"
+    grid-template-areas: "pic name name name name name"
+                        "pic name name name name name"
                         "stats stats stats fate fate fate"
                         "stats stats stats talents talents talents"
                         "stats stats stats talents talents talents"
