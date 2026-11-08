@@ -65,6 +65,8 @@ main {
 
 
 .name {
+    justify-content: center;
+    align-items: center;
     grid-area: name;
     display: grid;
     grid-gap: 4px;
@@ -76,18 +78,26 @@ main {
 }
 
 .charname {
+    justify-content: center;
+    align-items: center;
     grid-area: charname;
 }
 
 .origin {
+    justify-content: center;
+    align-items: center;
     grid-area: origin;
 }
 
 .career {
+    justify-content: center;
+    align-items: center;
     grid-area: career;
 }
 
 .status {
+    justify-content: center;
+    align-items: center;
     grid-area: status;
 }
 
