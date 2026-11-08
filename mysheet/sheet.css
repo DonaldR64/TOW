@@ -71,12 +71,10 @@ main {
     display: grid;
     grid-gap: 4px;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
     grid-template-areas: "charname charname charname charname charname"
-                        "origin origin career career status"
-                        "origin origin career career status"
-                        "origin origin career career status"
-                        "origin origin career career status";
+                        "origin1 origin1 career1 career1 status1"
+                        "origin2 origin2 career2 career2 status2";
 }
 
 .charname {
@@ -86,30 +84,45 @@ main {
     grid-area: charname;
 }
 
-.origin {
+.origin1 {
     display: flex;
-    flex-shrink: 0;
     justify-content: center;
     align-items: center;
-    grid-area: origin;
+    grid-area: origin1;
 }
-
-.career {
+.origin2 {
     display: flex;
-    flex-shrink: 0;
     justify-content: center;
     align-items: center;
-    grid-area: career;
+    grid-area: origin2;
 }
 
-.status {
+
+
+.career1 {
     display: flex;
-    flex-shrink: 0;
     justify-content: center;
     align-items: center;
-    grid-area: status;
+    grid-area: career1;
 }
-
+.career2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: career2;
+}
+.status1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: status1;
+}
+.status2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: status2;
+}
 
 
 
