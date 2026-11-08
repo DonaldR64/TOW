@@ -50,6 +50,8 @@ main {
     justify-content: center;
     align-items: center;
     background-color: white;
+    border-style: none;
+
 }
 
 .common > img {
