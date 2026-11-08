@@ -29,8 +29,8 @@ main {
     width: 800px;
     height: 700px;
     grid-gap: 4px;
-    grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(10,1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: "pic pic name name name name"
                         "pic pic name name name name"
                         "stats stats stats fate fate fate"
@@ -45,10 +45,10 @@ main {
 
 .tokenpic {
     grid-area: pic;
-
+    background-color:  white;
 }
 
-.namearea {
+.name {
     grid-area: name;
 }
 
