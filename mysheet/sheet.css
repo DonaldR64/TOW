@@ -32,8 +32,8 @@ main {
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(10,1fr);
     grid-template-areas: "pic pic name name name name name name"
-                        "pic pic name name name name name name"
-                        "stats stats stats stats fate fate fate fate"
+                        "pic pic fate fate fate fate fate fate"
+                        "stats stats stats stats talents talents talents talents"
                         "stats stats stats stats talents talents talents talents"
                         "stats stats stats stats talents talents talents talents"
                         "stats stats stats stats talents talents talents talents"
@@ -63,66 +63,6 @@ main {
 }
 
 
-
-.name {
-    justify-content: center;
-    align-items: center;
-    grid-area: name;
-    display: grid;
-    grid-gap: 4px;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(3,1fr);
-    grid-template-areas: "charname charname charname charname charname"
-                        "origin1 origin1 career1 career1 status1"
-                        "origin2 origin2 career2 career2 status2";
-}
-
-.charname {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-area: charname;
-}
-
-.origin1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-area: origin1;
-}
-.origin2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-area: origin2;
-}
-
-
-
-.career1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-area: career1;
-}
-.career2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-area: career2;
-}
-.status1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-area: status1;
-}
-.status2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-area: status2;
-}
 
 
 
