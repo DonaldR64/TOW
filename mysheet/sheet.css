@@ -23,6 +23,74 @@ section {
 }
 
 
+/*----------------- GENERAL CSS ------------------*/
+
+section {
+    padding: 5px;
+    border-style: solid;
+}
+
+/* CSS Flexbox styling, used for adjusting how content inside section behaves */
+.f-col {
+  display: flex;
+  flex-direction: column;
+}
+.f-row {
+  display: flex;
+  flex-direction: row;
+  justify-items: all;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.f-center {
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*----------------- Text & Input styling -----------------*/
+
+/* these are for overwriting default CSS that comes from Roll20 */
+
+.charsheet * {
+  font-family: "serif;";
+}
+
+.charsheet h1{
+  text-align: center;
+  color: white;
+}
+.charsheet h2{
+  text-align: center;
+  color:  darkred;
+}
+.charsheet h3{
+  text-align: center;
+  color: black;
+}
+
+.charsheet h4{
+  text-align: center;
+  color: black;
+}
+
+.charsheet h5{
+  text-align: center;
+  color: darkred;
+}
+
+
+
+
+
+
+
 
 main {
     display: grid;
