@@ -78,12 +78,15 @@ main {
 }
 
 .charname {
+    display: flex;
     justify-content: center;
     align-items: center;
     grid-area: charname;
 }
 
 .origin {
+    display: flex;
+
     justify-content: center;
     align-items: center;
     grid-area: origin;
