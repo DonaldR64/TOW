@@ -66,7 +66,45 @@ main {
 
 .name {
     grid-area: name;
+    display: grid;
+    grid-gap: 4px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: "charname charname charname charname charname"
+                        "origin origin career career status"
+                        "origin origin career career status";
 }
+
+.charname {
+    grid-area: charname;
+}
+
+.origin {
+    grid-area: origin;
+}
+
+.career {
+    grid-area: career;
+}
+
+.status {
+    grid-area: status;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .stats {
     grid-area: stats;
