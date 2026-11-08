@@ -10,3 +10,53 @@
 .sheet-tabstoggle[value="main"] ~ div.sheet-main {
     display: block;
 }
+
+
+
+
+
+
+.sheet-main {
+    display: grid;
+    width: 800px;
+    height: 700px;
+    grid-gap: 4px;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(10,1fr);
+    grid-template-areas: 
+    "pic pic name name name name"
+    "pic pic name name name name"
+    "stats stats stats fate fate fate"
+    "stats stats stats talents talents talents"
+    "stats stats stats talents talents talents"
+    "stats stats stats talents talents talents"
+    "stats stats stats talents talents talents"
+    "stats stats stats lore    lore    lore"
+    "stats stats stats lore    lore    lore"
+    "stats stats stats lore    lore    lore";
+}
+
+.tokenpic {
+    grid-area: pic;
+
+}
+
+.namearea {
+    grid-area: name;
+}
+
+.stats {
+    grid-area: stats;
+}
+
+.fate {
+    grid-area: fate;
+}
+
+.talents {
+    grid-area: talents;
+}
+
+.lores {
+    grid-area: lore;
+}
