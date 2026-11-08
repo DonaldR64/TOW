@@ -45,11 +45,9 @@ main {
 
 .tokenpic {
     grid-area: pic;
-    background-color:  white;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
     border-style: none;
 
 }
@@ -62,7 +60,12 @@ main {
     justify-self: center;
 }
 
-
+.name {
+    grid-area: name;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
