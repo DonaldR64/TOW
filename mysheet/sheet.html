@@ -1,0 +1,56 @@
+<input type="hidden" class="sheet-tabstoggle" name="attr_sheetTab"  value="main"  />
+<div>
+    <button type="action" name="act_main" >Main</button>
+    <button type="action" name="act_combat" >Combat</button>
+</div>
+
+
+
+
+<div class="sheet-main">
+MAIN
+
+
+
+</div>
+
+
+<div class="sheet-combat">
+COMBAT
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script type="text/worker">
+    const buttonlist = ["main","ship"];
+    buttonlist.forEach(button => {
+        on(`clicked:${button}`, function() {
+            setAttrs({
+                sheetTab: button
+            });
+        });
+    });
+    on("sheet:opened", function() {
+        setAttrs({sheetTab:"main"});
+    });
+
+
+</script>
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+/*Configure the tab buttons*/
+.sheet-combat,
+.sheet-main {
+    display: none;
+}
+
+
+/* show the selected tab */
+.sheet-tabstoggle[value="combat"] ~ div.sheet-combat,
+.sheet-tabstoggle[value="main"] ~ div.sheet-main {
+    display: block;
+}
