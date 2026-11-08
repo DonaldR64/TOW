@@ -11,12 +11,20 @@
     display: block;
 }
 
+.mysheet {
+    width: 830px;
+    height: 730px;
+    padding: 15px 0px 0px 15px;
+}
+
+section {
+    padding: 5px;
+    border-style: solid;
+}
 
 
 
-
-
-.sheet-main {
+main {
     display: grid;
     width: 800px;
     height: 700px;
