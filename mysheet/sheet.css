@@ -103,13 +103,13 @@ main {
     width: 800px;
     height: 500px;
     grid-gap: 4px;
-    grid-template-columns: repeat(8,1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(5,1fr);
-    grid-template-areas: "pic pic name name name name name name"
-                        "pic pic fate fate fate fate fate fate"
-                        "stats stats stats stats talents talents talents talents"
-                         "stats stats stats stats talents talents talents talents"
-                        "stats stats stats stats lore lore    lore    lore";
+    grid-template-areas: "pic name name name"
+                        "pic  fate fate fate"
+                        "stats1 stats1 stats2 stats2"
+                         "stats1 stats1 stats2 stats2"
+                        "stats1 stats1 stats2 stats2";
 }
 
 .tokenpic {
@@ -159,23 +159,19 @@ main {
 
 
 
+.stats1 {
+    grid-area: stats1;
+}
 
 
 
 
 
-.stats {
-    grid-area: stats;
+.stats2 {
+    grid-area: stats2;
 }
 
 .fate {
     grid-area: fate;
 }
 
-.talents {
-    grid-area: talents;
-}
-
-.lores {
-    grid-area: lore;
-}
