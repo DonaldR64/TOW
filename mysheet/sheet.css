@@ -170,7 +170,7 @@ main {
 .careertitle {
     grid-column: 2/3;
     grid-row: 2/3;
-    background-color: tan;
+    background-color: darkkhaki;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -193,7 +193,7 @@ main {
 .statustitle {
     grid-column: 3/-1;
     grid-row: 2/3;
-    background-color: burlywood;
+    background-color: darkkhaki;
     display: flex;
     justify-content: center;
     align-items: center; 
