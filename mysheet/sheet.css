@@ -232,6 +232,7 @@ section {
     border-width: 1px;
     width: 100%;
     height: 100%;
+    background-color: darkkhaki;
 }
 .wsvalue {
     grid-column: 2/3;
@@ -254,6 +255,7 @@ section {
     border-width: 1px;
     width: 100%;
     height: 100%;
+    background-color: khaki;
 }
 .meleename {
     grid-column: 3/4;
@@ -265,6 +267,7 @@ section {
     border-width: 1px;
     width: 100%;
     height: 100%;
+    background-color: darkkhaki;
 }
 .meleevalue {
     grid-column: 4/-1;
@@ -287,6 +290,7 @@ section {
     border-width: 1px;
     width: 100%;
     height: 100%;
+    background-color: darkkhaki;
 }
 .defencevalue {
     grid-column: 4/-1;
