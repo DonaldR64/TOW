@@ -161,7 +161,8 @@ main {
     grid-row: 3/-1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
+  
 }
 .career {
     grid-column: 2/3;
