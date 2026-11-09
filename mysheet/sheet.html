@@ -2,6 +2,8 @@
 <div>
     <button type="action" name="act_main" >Main</button>
     <button type="action" name="act_combat" >Combat</button>
+    <button type="action" name="act_advances" >Advances</button>
+
 </div>
 
 
@@ -63,7 +65,12 @@ COMBAT
 
 </div>
 
+<div class="sheet-advances">
+Advances
 
+
+
+</div>
 
 
 
@@ -73,7 +80,7 @@ COMBAT
 
 
 <script type="text/worker">
-    const buttonlist = ["main","combat"];
+    const buttonlist = ["main","combat","advances"];
     buttonlist.forEach(button => {
         on(`clicked:${button}`, function() {
             setAttrs({
