@@ -215,12 +215,93 @@ section {
 }
 
 
-
-
-
 .stats1 {
     grid-area: stats1;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(8,1fr);
+    align-items: center;
 }
+.wstitle {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.wsvalue {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.wsname {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.meleename {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.meleevalue {
+    grid-column: 4/-1;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.defencename {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.defencevalue {
+    grid-column: 4/-1;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 
 
