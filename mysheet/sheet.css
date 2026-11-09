@@ -146,7 +146,7 @@ main {
 .originstitle {
     grid-column: 1/2;
     grid-row: 2/3;
-    background-color:peru;
+    background-color:khaki;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -170,7 +170,7 @@ main {
 .careertitle {
     grid-column: 2/3;
     grid-row: 2/3;
-    background-color:peru;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -193,7 +193,7 @@ main {
 .statustitle {
     grid-column: 3/-1;
     grid-row: 2/3;
-    background-color:peru;
+    background-color: lightgrey;
     display: flex;
     justify-content: center;
     align-items: center; 
