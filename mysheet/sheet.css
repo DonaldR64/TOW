@@ -304,7 +304,87 @@ section {
     height: 100%;
 }
 
-
+.bstitle {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: darkkhaki;
+}
+.bsvalue {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.bsname {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+}
+.shootingname {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: darkkhaki;
+}
+.shootingvalue {
+    grid-column: 4/-1;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.throwingname {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: darkkhaki;
+}
+.throwingvalue {
+    grid-column: 4/-1;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
 
 
 
