@@ -106,7 +106,7 @@ main {
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(5,1fr);
     grid-template-areas: "pic name name name"
-                        "pic  fate fate fate"
+                        "pic  condition condition condition"
                         "stats1 stats1 stats2 stats2"
                          "stats1 stats1 stats2 stats2"
                         "stats1 stats1 stats2 stats2";
@@ -230,8 +230,8 @@ main {
     grid-area: stats2;
 }
 
-.fate {
-    grid-area: fate;
+.condition {
+    grid-area: condition;
     display: grid;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(3,1fr);
