@@ -178,7 +178,7 @@ main {
 }
 .status {
     grid-column: 3/-1;
-    grid-row: 3/-1;
+    grid-row: 1/-1;
     border-style: solid;
     border-width: 1px;
     width: 100%;
