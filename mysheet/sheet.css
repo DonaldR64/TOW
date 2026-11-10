@@ -202,7 +202,7 @@ section {
 }
 .wstitle {
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 2/4;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -214,7 +214,7 @@ section {
 }
 .wsvalue {
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 2/4;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -284,7 +284,7 @@ section {
 }
 .bstitle {
     grid-column: 1/2;
-    grid-row: 5/6;
+    grid-row: 5/7;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -296,7 +296,7 @@ section {
 }
 .bsvalue {
     grid-column: 2/3;
-    grid-row: 5/6;
+    grid-row: 5/7;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -365,7 +365,7 @@ section {
 }
 .strtitle {
     grid-column: 1/2;
-    grid-row: 8/9;
+    grid-row: 8/10;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -377,7 +377,7 @@ section {
 }
 .strvalue {
     grid-column: 2/3;
-    grid-row: 8/9;
+    grid-row: 8/10;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -447,7 +447,7 @@ section {
 }
 .toughtitle {
     grid-column: 1/2;
-    grid-row: 11/12;
+    grid-row: 11/-1;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -459,7 +459,7 @@ section {
 }
 .toughvalue {
     grid-column: 2/3;
-    grid-row: 11/12;
+    grid-row: 11/-1;
     display: flex;
     justify-content: center;
     align-items: center; 
