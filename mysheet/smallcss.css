@@ -65,3 +65,17 @@ section {
 }
 
 
+/* Main page */
+.maindiv {
+    display: grid;
+    width: 800px;
+    height: 500px;
+    grid-gap: 4px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: "pic name name name"
+                        "pic  condition condition condition"
+                        "stats1 stats1 stats2 stats2"
+                         "stats1 stats1 stats2 stats2"
+                        "stats1 stats1 stats2 stats2";
+}
