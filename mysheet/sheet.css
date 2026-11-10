@@ -956,3 +956,12 @@ section {
     width: 100%;
     height: 100%;
 }
+
+
+/* Combat page */
+.sheet-combat {
+    display: grid;
+    width: 800px;
+    height: 500px;
+    grid-gap: 4px;
+}
