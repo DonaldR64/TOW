@@ -258,7 +258,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.defencevalue {
+.defencetotal {
     grid-column: 4/-1;
     grid-row: 3/4;
     display: flex;
