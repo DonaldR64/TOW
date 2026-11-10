@@ -1008,5 +1008,6 @@ section {
 }
 
 .button[type=roll] {
+    border: 0;
     background: transparent;
 }
