@@ -977,7 +977,7 @@ section {
     content: "";
 }
 
-.button[type=roll] {
+.button {
     border: 0;
     background: transparent;
 }
