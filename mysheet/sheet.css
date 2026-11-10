@@ -973,6 +973,10 @@ section {
     height: 100%;
 }
 
+.ui-dialog .charsheet button[type=roll]:before {
+    content: "";
+}
+
 .button[type=roll] {
     border: 0;
     background: transparent;
