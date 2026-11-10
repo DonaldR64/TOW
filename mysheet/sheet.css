@@ -17,6 +17,10 @@
     width: 830px;
     height: 530px;
     padding: 15px 0px 0px 15px;
+    background-image: url("https://files.d20.io/images/506936656/t4RQeE9LToDNsHMCmwyN2Q/med.jpg?1794253393");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%
 }
 
 section {
@@ -54,40 +58,6 @@ section {
   align-items: center;
   justify-content: center;
 }
-
-
-/*----------------- Text & Input styling -----------------*/
-
-/* these are for overwriting default CSS that comes from Roll20 */
-
-.charsheet * {
-  font-family: "serif;";
-}
-
-.charsheet h1{
-  text-align: center;
-  color: white;
-}
-.charsheet h2{
-  text-align: center;
-  color:  darkred;
-}
-.charsheet h3{
-  text-align: center;
-  color: black;
-}
-
-.charsheet h4{
-  text-align: center;
-  color: black;
-}
-
-.charsheet h5{
-  text-align: center;
-  color: darkred;
-}
-
-
 
 
 
