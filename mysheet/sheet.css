@@ -1,13 +1,13 @@
 
 /*Configure the tab buttons*/
 .sheet-combat,
-.sheet-main {
+.sheet-front {
     display: none;
 }
 
 /* show the selected tab */
 .sheet-tabstoggle[value="combat"] ~ div.sheet-combat,
-.sheet-tabstoggle[value="main"] ~ div.sheet-main {
+.sheet-tabstoggle[value="front"] ~ div.sheet-front {
     display: block;
 }
 

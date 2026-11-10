@@ -1,11 +1,11 @@
 <input type="hidden" class="sheet-tabstoggle" name="attr_sheetTab"  value="display"  />
 <div>
-    <button type="action" name="act_main" >Main</button>
+    <button type="action" name="act_front" >Front Page</button>
     <button type="action" name="act_combat" >Combat</button>
 </div>
 
     <!-- Main Tab --> 
-    <div class="sheet-main">
+    <div class="sheet-front">
         <div class="mysheet">
             <div class="mainpage">
                 <section class="tokenpic">
@@ -281,7 +281,7 @@
 
 
     <script type="text/worker">
-        const buttonlist = ["main","combat","advances","talents","trappings","notes","spells"];
+        const buttonlist = ["front","combat","advances","talents","trappings","notes","spells"];
         buttonlist.forEach(button => {
             on(`clicked:${button}`, function() {
                 setAttrs({
@@ -290,7 +290,7 @@
             });
         });
         on("sheet:opened", function() {
-            setAttrs({sheetTab:"main"});
+            setAttrs({sheetTab:"front"});
         });
 
         //on change of currentCondition needs update
