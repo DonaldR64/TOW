@@ -1,19 +1,13 @@
-    <input type="hidden" class="sheet-tabs" name="attr_sheetTab"  value="main"  />
-    <div>
-        <button type="action" name="act_main" >Main</button>
-        <button type="action" name="act_talents" >Talents/Lore</button>
-        <button type="action" name="act_trappings" >Trappings</button>
-        <button type="action" name="act_combat" >Combat</button>
-        <button type="action" name="act_notes" >Notes</button>
-        <button type="action" name="act_spells" >Spells</button>
-        <button type="action" name="act_advances" >Advances</button>
+<input type="hidden" class="sheet-tabstoggle" name="attr_sheetTab"  value="display"  />
+<div>
+    <button type="action" name="act_input" >Input</button>
+    <button type="action" name="act_display" >Display</button>
+</div>
 
-    </div>
-    <input type="hidden" class="sheet-tabs" name="attr_sheetTab"  value="main"  />
     <!-- Main Tab --> 
     <div class="sheet-main">
         <div class="mysheet">
-            <div class="page1">
+            <main>
                 <section class="tokenpic">
                     <img alt="Character Avatar" name="attr_character_avatar" style="width:auto;height: auto; bottom: 0;"/>
                 </section>
@@ -261,10 +255,11 @@
                         <span name="attr_conditionsdisplay"></span>
                     </div>
                 </section>
-            </div>
+            </main>
         </div>
     </div>
-    <input type="hidden" class="sheet-tabs" name="attr_sheetTab"  value="main"  />
+
+
     <!-- Combat Tab --> 
     <div class="sheet-combat">
         COMBAT
@@ -272,7 +267,8 @@
 
 
     </div>
-    <input type="hidden" class="sheet-tabs" name="attr_sheetTab"  value="main"  />
+
+
     <!-- Advances Tab --> 
     <div class="sheet-advances">
         Advances

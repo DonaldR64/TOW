@@ -1,17 +1,29 @@
 
-/* show the selected tab */
-.sheet-tabs:not[value="combat"] ~ .sheet-combat,
-.sheet-tabs:not[value="advances"] ~ .sheet-advances,
-.sheet-tabs:not[value="talents"] ~ .sheet-talents,
-.sheet-tabs:not[value="trappings"] ~ .sheet-trappings,
-.sheet-tabs:not[value="notes"] ~ .sheet-notes,
-.sheet-tabs:not[value="spells"] ~ .sheet-spells,
-.sheet-tabs:not[value="main"] ~ .sheet-main {
+/*Configure the tab buttons*/
+.sheet-combat,
+.sheet-main {
     display: none;
 }
 
+/* show the selected tab */
+.sheet-tabstoggle[value="combat"] ~ div.sheet-combat,
+.sheet-tabstoggle[value="main"] ~ div.sheet-main {
+    display: block;
+}
 
 /*----------------- GENERAL CSS ------------------*/
+
+.mysheet {
+    width: 830px;
+    height: 530px;
+    padding: 15px 0px 0px 15px;
+    background-image: url("https://files.d20.io/images/506936656/t4RQeE9LToDNsHMCmwyN2Q/med.jpg?1794253393");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%
+}
+
+
 
 section {
     padding: 5px;
@@ -55,16 +67,7 @@ section {
 
 
 /* Main page */
-.mysheet {
-    width: 830px;
-    height: 530px;
-    padding: 15px 0px 0px 15px;
-    background-image: url("https://files.d20.io/images/506936656/t4RQeE9LToDNsHMCmwyN2Q/med.jpg?1794253393");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%
-}
-.page1 {
+main {
     display: grid;
     width: 800px;
     height: 500px;
