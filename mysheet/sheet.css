@@ -977,7 +977,7 @@ section {
     content: "";
 }
 
-.button {
+.button.skill-button {
     border: 0;
     background: transparent;
 }
