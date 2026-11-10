@@ -67,7 +67,7 @@ section {
 
 
 /* Main page */
-main {
+.mainpage {
     display: grid;
     width: 800px;
     height: 500px;
