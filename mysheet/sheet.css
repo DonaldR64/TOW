@@ -1,6 +1,8 @@
 
 /*Configure the tab buttons*/
-.sheet-combat,
+.sheet-combat {
+    display: none;
+}
 .sheet-front {
     display: none;
 }
