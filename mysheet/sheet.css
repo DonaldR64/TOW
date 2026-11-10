@@ -562,7 +562,359 @@ section {
 
 .stats2 {
     grid-area: stats2;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(8,1fr);
+    align-items: center;
 }
+.inittitle {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+}
+.initvalue {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.initname {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: darkkhaki;
+}
+.awarename {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+}
+.awarevalue {
+    grid-column: 4/-1;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.dexname {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+}
+.dexvalue {
+    grid-column: 4/-1;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+
+.agtitle {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+}
+.agvalue {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.agname {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: darkkhaki;
+}
+.athleticsname {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+}
+.athleticsvalue {
+    grid-column: 4/-1;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.stealthname {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+}
+.stealthvalue {
+    grid-column: 4/-1;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.reasontitle {
+    grid-column: 1/2;
+    grid-row: 6/7;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+}
+.reasonvalue {
+    grid-column: 2/3;
+    grid-row: 6/7;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.reasonname {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: darkkhaki;
+}
+.wpname {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+}
+.wpvalue {
+    grid-column: 4/-1;
+    grid-row: 5/6;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.recallname {
+    grid-column: 3/4;
+    grid-row: 6/7;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+}
+.recallvalue {
+    grid-column: 4/-1;
+    grid-row: 6/7;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.feltitle {
+    grid-column: 1/2;
+    grid-row: 8/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+}
+.felvalue {
+    grid-column: 2/3;
+    grid-row: 8/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.felname {
+    grid-column: 1/3;
+    grid-row: 7/8;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: darkkhaki;
+}
+.leadername {
+    grid-column: 3/4;
+    grid-row: 7/8;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+}
+.leadervalue {
+    grid-column: 4/-1;
+    grid-row: 7/8;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.charmname {
+    grid-column: 3/4;
+    grid-row: 8/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+}
+.charmvalue {
+    grid-column: 4/-1;
+    grid-row: 8/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .condition {
     grid-area: condition;
