@@ -1,6 +1,10 @@
 /*Configure the tab buttons*/
 .sheet-combat,
 .sheet-advances,
+.sheet-talents,
+.sheet-trappings,
+.sheet-notes,
+.sheet-spells,
 .sheet-main {
     display: none;
 }
@@ -9,6 +13,10 @@
 /* show the selected tab */
 .sheet-tabstoggle[value="combat"] ~ div.sheet-combat,
 .sheet-tabstoggle[value="advances"] ~ div.sheet-advances,
+.sheet-tabstoggle[value="talents"] ~ div.sheet-talents,
+.sheet-tabstoggle[value="trappings"] ~ div.sheet-trappings,
+.sheet-tabstoggle[value="notes"] ~ div.sheet-notes,
+.sheet-tabstoggle[value="spells"] ~ div.sheet-spells,
 .sheet-tabstoggle[value="main"] ~ div.sheet-main {
     display: block;
 }
