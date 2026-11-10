@@ -1,26 +1,3 @@
-/*Configure the tab buttons*/
-.sheet-combat,
-.sheet-advances,
-.sheet-talents,
-.sheet-trappings,
-.sheet-notes,
-.sheet-spells,
-.sheet-main {
-    display: none;
-}
-
-
-/* show the selected tab */
-.sheet-tabstoggle[value="combat"] ~ .sheet-combat,
-.sheet-tabstoggle[value="advances"] ~ .sheet-advances,
-.sheet-tabstoggle[value="talents"] ~ .sheet-talents,
-.sheet-tabstoggle[value="trappings"] ~ .sheet-trappings,
-.sheet-tabstoggle[value="notes"] ~ .sheet-notes,
-.sheet-tabstoggle[value="spells"] ~ .sheet-spells,
-.sheet-tabstoggle[value="main"] ~ .sheet-main {
-    display: block;
-}
-
 .charsheet {
     width: 830px;
     height: 530px;
@@ -30,7 +7,16 @@
     background-position: center;
     background-size: 100% 100%
 }
-
+/* show the selected tab */
+.sheet-tabs:not[value="combat"] ~ .sheet-combat,
+.sheet-tabs:not[value="advances"] ~ .sheet-advances,
+.sheet-tabs:not[value="talents"] ~ .sheet-talents,
+.sheet-tabs:not[value="trappings"] ~ .sheet-trappings,
+.sheet-tabs:not[value="notes"] ~ .sheet-notes,
+.sheet-tabs:not[value="spells"] ~ .sheet-spells,
+.sheet-tabs:not[value="main"] ~ .sheet-main {
+    display: none;
+}
 
 
 /*----------------- GENERAL CSS ------------------*/
