@@ -546,7 +546,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.initvalue {
+.inittotal {
     grid-column: 2/3;
     grid-row: 1/2;
     display: flex;
@@ -581,7 +581,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.awarevalue {
+.awaretotal {
     grid-column: 4/-1;
     grid-row: 1/2;
     display: flex;
@@ -604,7 +604,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.dexvalue {
+.dextotal {
     grid-column: 4/-1;
     grid-row: 2/3;
     display: flex;
@@ -628,7 +628,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.agvalue {
+.agtotal {
     grid-column: 2/3;
     grid-row: 3/4;
     display: flex;
@@ -663,7 +663,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.athleticsvalue {
+.athleticstotal {
     grid-column: 4/-1;
     grid-row: 3/4;
     display: flex;
@@ -686,7 +686,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.stealthvalue {
+.stealthtotal {
     grid-column: 4/-1;
     grid-row: 4/5;
     display: flex;
@@ -711,7 +711,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.reasonvalue {
+.reasontotal {
     grid-column: 2/3;
     grid-row: 5/6;
     display: flex;
@@ -746,7 +746,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.wpvalue {
+.wptotal {
     grid-column: 4/-1;
     grid-row: 5/6;
     display: flex;
@@ -769,7 +769,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.recallvalue {
+.recalltotal {
     grid-column: 4/-1;
     grid-row: 6/7;
     display: flex;
@@ -794,7 +794,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.felvalue {
+.feltotal {
     grid-column: 2/3;
     grid-row: 7/8;
     display: flex;
@@ -829,7 +829,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.leadervalue {
+.leadertotal {
     grid-column: 4/-1;
     grid-row: 7/8;
     display: flex;
@@ -852,7 +852,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.charmvalue {
+.charmtotal {
     grid-column: 4/-1;
     grid-row: 8/-1;
     display: flex;
