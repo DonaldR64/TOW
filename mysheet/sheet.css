@@ -21,6 +21,7 @@
     display: block;
 }
 
+/* general sheet styling */
 .mysheet {
     width: 830px;
     height: 530px;
@@ -32,12 +33,25 @@
 }
 
 
+
 /*----------------- GENERAL CSS ------------------*/
 
 section {
     padding: 5px;
     border-style: solid;
 }
+
+.ui-dialog .charsheet button[type=roll]:before {
+    content: "";
+}
+
+.button.skill-button {
+    border: 0;
+    background: transparent;
+}
+
+
+
 
 /* CSS Flexbox styling, used for adjusting how content inside section behaves */
 .f-col {
@@ -63,10 +77,7 @@ section {
 }
 
 
-
-
-
-
+/* Main page */
 .maindiv {
     display: grid;
     width: 800px;
@@ -81,6 +92,7 @@ section {
                         "stats1 stats1 stats2 stats2";
 }
 
+/* pic */
 .tokenpic {
     grid-area: pic;
     display: flex;
@@ -89,15 +101,14 @@ section {
     border-style: none;
 
 }
-
-.common > img {
+.tokenpic > img {
     object-fit: contain;
     width: 100%;
     max-height: 100%;
     align-self: center;
     justify-self: center;
 }
-
+/* name, origins, career, status */
 .name {
     grid-area: name;
     display: grid;
@@ -111,7 +122,6 @@ section {
     grid-row: 1/2;
 }
 
-
 .originstitle {
     grid-column: 1/2;
     grid-row: 2/3;
@@ -124,7 +134,7 @@ section {
     width: 100%;
     height: 100%;
 }
-.originsvalue {
+.origins {
     grid-column: 1/2;
     grid-row: 3/-1;
     display: flex;
@@ -135,7 +145,6 @@ section {
     width: 100%;
     height: 100%;
 }
-
 .careertitle {
     grid-column: 2/3;
     grid-row: 2/3;
@@ -148,7 +157,7 @@ section {
     width: 100%;
     height: 100%;
 }
-.careervalue {
+.career {
     grid-column: 2/3;
     grid-row: 3/-1;
     display: flex;
@@ -171,7 +180,7 @@ section {
     width: 100%;
     height: 100%;
 }
-.statusvalue {
+.status {
     grid-column: 3/-1;
     grid-row: 3/-1;
     display: flex;
@@ -183,7 +192,7 @@ section {
     height: 100%;
 }
 
-
+/* Stats part 1 */
 .stats1 {
     grid-area: stats1;
     display: grid;
@@ -215,7 +224,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.wsvalue {
+.wstotal {
     grid-column: 2/3;
     grid-row: 2/4;
     display: flex;
@@ -226,7 +235,6 @@ section {
     width: 100%;
     height: 100%;
 }
-
 .meleename {
     grid-column: 3/4;
     grid-row: 2/3;
@@ -239,8 +247,8 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.meleevalue {
-    grid-column: 4/-1;
+.meleetotal {
+    grid-column: 4/5;
     grid-row: 2/3;
     display: flex;
     justify-content: center;
@@ -262,7 +270,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.defencevalue {
+.defencetotal {
     grid-column: 4/-1;
     grid-row: 3/4;
     display: flex;
@@ -298,7 +306,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.bsvalue {
+.bstotal {
     grid-column: 2/3;
     grid-row: 5/7;
     display: flex;
@@ -321,7 +329,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.shootingvalue {
+.shootingtotal {
     grid-column: 4/-1;
     grid-row: 5/6;
     display: flex;
@@ -344,7 +352,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.throwingvalue {
+.throwingtotal {
     grid-column: 4/-1;
     grid-row: 6/7;
     display: flex;
@@ -379,7 +387,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.strvalue {
+.strtotal {
     grid-column: 2/3;
     grid-row: 8/10;
     display: flex;
@@ -402,7 +410,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.brawnvalue {
+.brawntotal {
     grid-column: 4/-1;
     grid-row: 8/9;
     display: flex;
@@ -425,7 +433,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.toilvalue {
+.toiltotal {
     grid-column: 4/-1;
     grid-row: 9/10;
     display: flex;
@@ -461,7 +469,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.toughvalue {
+.toughtotal {
     grid-column: 2/3;
     grid-row: 11/-1;
     display: flex;
@@ -484,7 +492,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.survivalvalue {
+.survivaltotal {
     grid-column: 4/-1;
     grid-row: 11/12;
     display: flex;
@@ -507,7 +515,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.endurancevalue {
+.endurancetotal {
     grid-column: 4/-1;
     grid-row: 12/-1;
     display: flex;
@@ -519,14 +527,7 @@ section {
     height: 100%;
 }
 
-
-
-
-
-
-
-
-
+/* Stats part 2 */
 .stats2 {
     grid-area: stats2;
     display: grid;
@@ -864,25 +865,7 @@ section {
     height: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Conditions, Fate */
 .condition {
     grid-area: condition;
     display: grid;
@@ -972,13 +955,4 @@ section {
     border-width: 1px;
     width: 100%;
     height: 100%;
-}
-
-.ui-dialog .charsheet button[type=roll]:before {
-    content: "";
-}
-
-.button.skill-button {
-    border: 0;
-    background: transparent;
 }
