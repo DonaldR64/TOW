@@ -212,7 +212,7 @@ section {
     height: 100%;
     background-color: khaki;
 }
-.wsvalue {
+.wstotal {
     grid-column: 2/3;
     grid-row: 2/4;
     display: flex;
