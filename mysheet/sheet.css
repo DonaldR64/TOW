@@ -1009,19 +1009,7 @@ section {
 
 
 
-.sheet-button.txt-btn {
-  height: 19px;
-  border: 2px solid black;
-  background-color: transparent;
-  margin-left: 5px;
-  font-weight: bold;
-  padding: 2px 5px 4px 5px;
-}
-.sheet-button.txt-btn:before {
-  content: " ";
-}
-.sheet-button.txt-btn:hover {
-  background-color: #87AFC7;
-  border-radius: 10px;
-  background-position: 0 -28px;
+button[type=roll].sheet-d10-dice::before {
+    font-family: 'dicefontd10';
+    content: 'F ';
 }
