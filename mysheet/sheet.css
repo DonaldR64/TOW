@@ -78,7 +78,7 @@ section {
 
 
 /* Main page */
-.maindiv {
+.sheet-main {
     display: grid;
     width: 800px;
     height: 500px;
