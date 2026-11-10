@@ -236,7 +236,7 @@ section {
     background-color: khaki;
 }
 .meleevalue {
-    grid-column: 4/-1;
+    grid-column: 4/5;
     grid-row: 2/3;
     display: flex;
     justify-content: center;
