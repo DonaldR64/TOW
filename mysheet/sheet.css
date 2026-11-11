@@ -974,20 +974,18 @@ section {
     width: 800px;
     height: 500px;
     grid-gap: 4px;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 1fr;
-    grid-template-areas:    charadv    skilladv;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:    charadv   skilladv 
+                            charadv   skilladv
+                            charadv   skilladv;
 }
 .char-adv {
     grid-area: charadv;
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(9,1fr);
+
 }
 .skill-adv {
     grid-area: skilladv;
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(9,1fr);
+
 }
 
