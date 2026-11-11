@@ -330,6 +330,8 @@
         on("sheet:opened", function() {
             setAttrs({sheetTab:"front"});
         });
+        const attrs = ["wskillbase","wskilladvances"];
+
         on("change:attrs sheet:opened",function() {
             getAttrs(["wskillbase","wskilladvances",], function(values){
                 let wsb = parseInt(values.wskillbase) || 0;
