@@ -980,11 +980,11 @@ section {
                             charadv   skilladv
                             charadv   skilladv;
 }
-.char-adv {
+.charadv {
     grid-area: charadv;
 
 }
-.skill-adv {
+.skilladv {
     grid-area: skilladv;
 
 }
