@@ -1,13 +1,18 @@
 
 /*Configure the tab buttons*/
-.sheet-combat,
-.sheet-front {
+.charsheet .sheet-combat,
+.charsheet .sheet-front {
     display: none;
 }
 
+/* style the active button */
+.charsheet .sheet-tabstoggle[value="combat"] ~ div .sheet-button1 {outline: 2px solid red;}
+.charsheet .sheet-tabstoggle[value="front"] ~ div .sheet-button0 {outline: 2px solid red;}
+
+
 /* show the selected tab */
-.sheet-tabstoggle[value="combat"] ~ div.sheet-combat,
-.sheet-tabstoggle[value="front"] ~ div.sheet-front {
+.charsheet .sheet-tabstoggle[value="combat"] ~ div.sheet-combat,
+.charsheet .sheet-tabstoggle[value="front"] ~ div.sheet-front {
     display: block;
 }
 
