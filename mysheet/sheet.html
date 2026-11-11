@@ -2,7 +2,7 @@
 <div>
     <button type="action" name="act_front" class="sheet-button0" >Front Page</button>
     <button type="action" name="act_combat" class="sheet-button1">Combat</button>
-    <button type="action" name="act_advances" class="sheet-button2">Advances</button>
+    <button type="action" name="act_advances1" class="sheet-button2">Advances 1</button>
 
 
 
@@ -267,12 +267,29 @@
     Combat
 </div>
 
-<div class="sheet-advances">
-    Advances
+<div class="sheet-advances1">
+    <div class="mysheet">
+        <div class="advpage1">
+            <div class="char-advances1-headings">
+                <h4>Characteristic</h4>
+                <h4>Base</h4>
+                <h4>Advances</h4>
+                <h4>Total</h4>
+            </div>
+            <div class="char-advances-ws">
+                <h4>Weapon Skill</h4>
+                <h4><input type="number" name="attr_wskillbase"></h4>
+                <h4><input type="number" name="attr_wskilladvances"></h4>
+                <h4><span name="attr_wskilltotal"></span></h4>
+            </div>
 
 
 
 
+
+
+        </div>
+    </div>
 </div>
 
 
@@ -288,7 +305,7 @@
 
 
     <script type="text/worker">
-        const buttonlist = ["front","combat","advances","talents","trappings","notes","spells"];
+        const buttonlist = ["front","combat","advances1","talents","trappings","notes","spells"];
         buttonlist.forEach(button => {
             on(`clicked:${button}`, function() {
                 setAttrs({
@@ -299,9 +316,29 @@
         on("sheet:opened", function() {
             setAttrs({sheetTab:"front"});
         });
+        on("change:attrs sheet:opened",function() {
+            getAttrs(["wskillbase","wskilladvances",], function(values){
+                let wsb = parseInt(values.wskillbase) || 0;
+                let wsa = parseInt(values.wskilladvances) || 0;
+                let wskilltotal = wsb + wsa;
 
-        //on change of currentCondition needs update
-        //same with current fate points
+
+
+
+                setAttrs({
+                    "wskilltotal": wskilltotal,
+
+
+
+
+
+                })
+
+
+
+            });
+        });
+
 
 
 
