@@ -30,15 +30,6 @@
     background-position: center;
     background-size: 100% 100%
 }
-.mysheet2 {
-    width: 830px;
-    height: 530px;
-    padding: 15px 0px 0px 15px;
-    background-image: url("https://files.d20.io/images/506936656/t4RQeE9LToDNsHMCmwyN2Q/med.jpg?1794253393");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%
-}
 
 
 section {
@@ -982,18 +973,13 @@ section {
     width: 800px;
     height: 500px;
     grid-gap: 4px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:    charadv   skilladv 
-                            charadv   skilladv
-                            charadv   skilladv;
-}
-.charadv {
-    grid-area: charadv;
-
-}
-.skilladv {
-    grid-area: skilladv;
-
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(9,1fr);
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
 }
 
