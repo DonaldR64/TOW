@@ -964,22 +964,11 @@ section {
 
 
 /* Combat page */
-.sheet-combat {
-    display: grid;
-    width: 800px;
-    height: 500px;
-    grid-gap: 4px;
-}
+
 
 
 
 /* Advances page */
-.sheet-advances1 {
-    display: grid;
-    width: 800px;
-    height: 500px;
-    grid-gap: 4px;
-}
 .advpage1 {
     display: grid;
     width: 800px;
