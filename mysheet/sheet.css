@@ -14,7 +14,7 @@
 
 /* show the selected tab */
 .charsheet .sheet-tabstoggle[value="combat"] ~ div.sheet-combat,
-.charsheet .sheet-tabstoggle[value="advances1"] ~ div.sheet-advances,
+.charsheet .sheet-tabstoggle[value="advances1"] ~ div.sheet-advances1,
 .charsheet .sheet-tabstoggle[value="front"] ~ div.sheet-front {
     display: block;
 }
