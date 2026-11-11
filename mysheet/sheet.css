@@ -974,6 +974,13 @@ section {
     width: 800px;
     height: 500px;
     grid-gap: 4px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas:    charadv    skilladv;
+}
+.char-adv {
+    grid-area: charadv;
+    display: grid;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(9,1fr);
     justify-content: center;
@@ -983,47 +990,48 @@ section {
     width: 100%;
     height: 100%;
 }
-.adv1-heading-char {
+
+.adv-heading-char {
     grid-column: 1/4;
     grid-row: 1/2;
     display: flex;
     background-color: darkkhaki;
 }
-.adv1-heading-base {
+.adv-heading-base {
     grid-column: 4/5;
     grid-row: 1/2;
     display: flex;
     background-color: darkkhaki;
 }
-.adv1-heading-advances {
+.adv-heading-advances {
     grid-column: 5/6;
     grid-row: 1/2;
     display: flex;
     background-color: darkkhaki;
 }
-.adv1-heading-total {
+.adv-heading-total {
     grid-column: 6/-1;
     grid-row: 1/2;
     display: flex;
     background-color: darkkhaki;
 }
-.adv1-wstitle {
+.adv-wstitle {
     grid-column: 1/4;
     grid-row: 2/3;
     display: flex;
     background-color: khaki;
 }
-.adv1-wsbase {
+.adv-wsbase {
     grid-column: 4/5;
     grid-row: 2/3;
     display: flex;
 }
-.adv1-wsadv {
+.adv-wsadv {
     grid-column: 5/6;
     grid-row: 2/3;
     display: flex;
 }
-.adv1-wstotal {
+.adv-wstotal {
     grid-column: 6/-1;
     grid-row: 2/3;
     display: flex;
